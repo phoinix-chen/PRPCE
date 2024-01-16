@@ -1,0 +1,11 @@
+[tool.ruff]
+exclude = [".venv"]
+select = [
+    "E",   # pycodestyle
+    "F",   # Pyflakes
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "SIM", # flake8-simplify
+    "I",   # isort
+]
+line-length = 88
