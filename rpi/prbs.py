@@ -45,7 +45,6 @@ try:
 
     start_time = time()
     for step in range(times):
-        # valve_opening = randint(6, 24)
         valve_opening = sample_lst[step]
 
         time_per_step += 60 + randint(-10, 20)
