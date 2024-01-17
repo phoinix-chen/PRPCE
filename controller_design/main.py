@@ -109,6 +109,8 @@ if __name__ == "__main__":
     plt.plot(t, sp, color="purple", linewidth=1.5, label="SP")
     plt.plot(t, cv_o, color="blue", linewidth=1.5, label="CV pre opt")
     plt.plot(t, cv, color="red", linewidth=1.5, label="CV")
+    plt.ylabel("Preassure (bar)")
+    plt.xlabel("Time (s)")
     ### If you want to observe the MV changes at the same time,
     ### uncomment the following sentence:
     # plt.plot(t, mv, color="green", linewidth=1.5, label="MV")

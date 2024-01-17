@@ -109,5 +109,6 @@ if __name__ == "__main__":
     plt.subplot(2, 1, 2)
     plt.plot(t, u, "b-", linewidth=3, label="Measured")
     plt.plot(t, uf(t), "r--", linewidth=2, label="Interpolated")
-    plt.ylabel("Input Data")
+    plt.ylabel("Valve Opening (%)")
+    plt.xlabel("Time (s)")
     plt.show()
